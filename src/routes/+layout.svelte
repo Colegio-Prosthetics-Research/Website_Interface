@@ -3,11 +3,10 @@
 	import "../app.css";
   </script>
   
-  <!-- {@render children()} -->
 
 
 
-  <!-- nabigation bar -->
+  <!-- This is the nabigation bar -->
 
   <style>
     nav {
@@ -41,6 +40,8 @@
     }
   </style>
 
+
+<!-- This is the control of the top bar -->
 <nav>
     <ul>
         <li>
@@ -59,4 +60,5 @@
 
 </nav>
 
-<slot />
+<!-- <slot /> -->
+{@render children()}
