@@ -1,10 +1,5 @@
 <!-- This is where the Home page is drawn and its the main page of the wbsite -->
 
-<script>
-    import OGScript from "../components/OGScript.svelte";
-    import TopBar from "../components/TopBar.svelte";
-</script>
-
 <style lang="postcss">
     @reference "tailwindcss";
   
