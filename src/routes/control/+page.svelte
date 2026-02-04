@@ -1,19 +1,17 @@
-<div class="fixed top-24 w-screen">
+<!-- This is the Control Page route -->
+
+<!-- This is the creation of the iframe, it will present the arm control taken from the github repository -->
+<div class="fixed top-1rem w-screen">
 
     <iframe id="ControlIframe"
-    src="https://colegio-prosthetics-research.github.io/esp32/"
+    src="https://colegio-prosthetics-research.github.io/esp32/" title="CPR Arm Control"
     use:initializeIFrameResize
     ></iframe>
 
-    </div>
+</div>
 
 
-<!-- <div class="fixed top-40 w-screen">
-    <h1 class="text-6xl font-bold underline text-center m-10 top-40 text-orange-600">
-       Control Page
-    </h1>
-</div> -->
-
+<!-- This is the presentation of the iframe -->
 <style>
 	iframe {
 		width: 600px;
@@ -24,13 +22,3 @@
 	}
 
 </style>
-
-<!-- <iframe
-  src="/control"
-  style="
-    width: 100vw;
-    height: calc(100vh - 80px);
-    border: none;
-    margin-top: 80px;
-  "
-></iframe> -->

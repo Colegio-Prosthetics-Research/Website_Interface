@@ -1,19 +1,23 @@
+<!-- This is where the top bar is created -->
+
 <script>
 	let { children } = $props();
 	import "../app.css";
-  </script>
+</script>
   
 
 
-
-  <!-- This is the nabigation bar -->
+  <!-- This is the navigation bar presentation -->
 
   <style>
+
+    /* This is the color and size of the Bar */
     nav {
       background: rgba(40, 42, 49, 0.757);
       padding: 1rem;
     }
   
+    /* This the presentation of the buttons */
     ul {
       display: flex;
       list-style: none;
@@ -24,21 +28,24 @@
       gap: 1.5rem;
     }
   
+    /* This is the word thikness */
     a {
       text-decoration: none;
       color: #ccc;
       font-weight: 500;
     }
   
+    /* This is the color that the buttons change when hovering ontop */
     a:hover {
       color: white;
     }
   
-    .active {
-      color: #00bfff;
-      border-bottom: 2px solid #00bfff;
+    /* This the color that the buttons change when pressed */
+    a:active {
+      color: #534b46;
     }
   </style>
+
 
 
 <!-- This is the control of the top bar -->
@@ -60,5 +67,5 @@
 
 </nav>
 
-<!-- <slot /> -->
+
 {@render children()}

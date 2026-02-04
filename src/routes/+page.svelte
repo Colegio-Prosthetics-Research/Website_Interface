@@ -1,4 +1,4 @@
-<!-- Where the Homa page is drawn -->
+<!-- This is where the Home page is drawn and its the main page of the wbsite -->
 
 <script>
     import OGScript from "../components/OGScript.svelte";
@@ -14,8 +14,7 @@
 </style>
 
 
-<!--  -->
-
+<!-- Home Page placeholder text -->
 <div class="fixed top-40 w-screen">
     <h1 class="text-6xl font-bold underline text-center m-10 top-40 text-orange-600">
        Home Page
