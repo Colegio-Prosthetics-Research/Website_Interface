@@ -8,7 +8,6 @@
 
 
   <!-- This is the navigation bar presentation -->
-
   <style>
 
     /* This is the color and size of the Bar */
@@ -28,14 +27,14 @@
       gap: 1.5rem;
     }
   
-    /* This is the word thikness */
+    /* This is the word thickness */
     a {
       text-decoration: none;
       color: #ccc;
       font-weight: 500;
     }
   
-    /* This is the color that the buttons change when hovering ontop */
+    /* This is the color that the buttons change when hovering on top */
     a:hover {
       color: white;
     }
@@ -48,7 +47,7 @@
 
 
 
-<!-- This is the control of the top bar -->
+<!-- This is the navigation of the top bar -->
 <nav>
     <ul>
         <li>
